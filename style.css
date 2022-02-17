@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 body {
-    font-family: roboto;
+    font-family: roboto, "Open Sans", sans-serif;
     word-spacing: 2px;
     margin: 25px;
     overflow-wrap: break-word;

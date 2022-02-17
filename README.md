@@ -1,1 +1,1 @@
-# HeresyList
+# List

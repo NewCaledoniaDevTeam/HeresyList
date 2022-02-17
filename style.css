@@ -1,0 +1,43 @@
+body {
+    font-family: roboto;
+    word-spacing: 2px;
+    margin: 25px;
+    overflow-wrap: break-word;
+}
+
+h1::before,
+h1::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    display: inline-block;
+    background: #3498db;
+}
+
+h1::before {
+    margin: 0 15px 10px 0;
+}
+
+h1::after {
+    margin: 0 0 10px 15px;
+}
+
+@media (max-width: 450px) {
+    h1::before,
+    h1::after {
+        display: none !important;
+    }
+    h1 {
+        padding-bottom: 15px;
+    }
+}
+
+a {
+    color: #0984e3;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #74b9ff;
+    text-decoration: none;
+}
